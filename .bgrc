@@ -53,7 +53,7 @@ shopt -s checkwinsize
 shopt -s histappend
 
 #Large history; add time and ignore commands that begin with space or are a duplicate
-export HISTSIZE=20000
+export HISTSIZE=30000
 export HISTFILESIZE=20000
 export HISTCONTROL=ignoreboth
 export HISTTIMEFORMAT='%F %T '
